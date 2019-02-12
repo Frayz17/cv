@@ -1,4 +1,17 @@
+/* --------------------------------------------------------- */
 /* general */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style-type: none;
+  }
+
+.box {
+    margin-top: 30px;
+}
 
 .container {
     display: flex;
@@ -8,17 +21,25 @@
 
     min-height: 600px;
 }
+/* --------------------------------------------------------- */
 
+
+
+/* --------------------------------------------------------- */
 /* personal */
 .personal {
     display: flex;
     flex-direction: column;
+
     margin-right: auto;
+    padding-left: 20px;
 
     width: 35%;
-    background-color: green;
+    background-color: #435d87;
+    color: #ffffff;
 }
 
+/* --------------------------------------------------------- */
 /* professional */
 .professional {
     display: flex;
@@ -26,5 +47,5 @@
     margin-left: auto;
 
     width: 65%;
-    background-color: pink;
+    background-color: lightgray;
 }
