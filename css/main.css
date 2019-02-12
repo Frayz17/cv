@@ -1,51 +1,57 @@
 /* --------------------------------------------------------- */
 /* general */
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 ul {
-    list-style-type: none;
-  }
+  list-style-type: none;
+}
 
 .box {
-    margin-top: 30px;
+  margin-top: 30px;
 }
 
 .container {
-    display: flex;
-    align-items: top;
-    max-width: 960px;
-    margin: 0 auto;
+  display: flex;
+  align-items: top;
+  max-width: 960px;
+  margin: 50px auto;
 
-    min-height: 600px;
+  min-height: 600px;
 }
 /* --------------------------------------------------------- */
-
-
 
 /* --------------------------------------------------------- */
 /* personal */
 .personal {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 
-    margin-right: auto;
-    padding-left: 20px;
+  margin-right: auto;
+  padding-left: 20px;
+  padding-top: 20px;
 
-    width: 35%;
-    background-color: #435d87;
-    color: #ffffff;
+  padding: 20px;
+
+  width: 35%;
+  background-color: #435d87;
+  color: #ffffff;
 }
 
 /* --------------------------------------------------------- */
 /* professional */
 .professional {
-    display: flex;
-    flex-direction: column;
-    margin-left: auto;
+  display: flex;
+  flex-direction: column;
 
-    width: 65%;
-    background-color: lightgray;
+  margin-left: auto;
+  padding-left: 20px;
+  padding-top: 20px;
+
+  padding: 20px;
+
+  width: 65%;
+  background-color: #efefef;
 }
