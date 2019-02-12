@@ -1,0 +1,30 @@
+/* general */
+
+.container {
+    display: flex;
+    align-items: top;
+    max-width: 960px;
+    margin: 0 auto;
+
+    min-height: 600px;
+}
+
+/* personal */
+.personal {
+    display: flex;
+    flex-direction: column;
+    margin-right: auto;
+
+    width: 35%;
+    background-color: green;
+}
+
+/* professional */
+.professional {
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+
+    width: 65%;
+    background-color: pink;
+}
